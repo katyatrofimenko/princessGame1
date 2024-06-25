@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".MainActivity">
+
+    <!-- Background image -->
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha="0.8"
+        android:scaleType="centerCrop"
+        android:src="@drawable/back" />
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:id="@+id/livesLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:orientation="horizontal"
+            android:layout_marginTop="0dp">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/heart1"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:scaleType="fitStart"
+                android:src="@drawable/love"/>
+
+            <View
+                android:layout_width="8dp"
+                android:layout_height="0dp"/>
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/heart2"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:scaleType="fitStart"
+                android:src="@drawable/love"/>
+
+            <View
+                android:layout_width="8dp"
+                android:layout_height="0dp"/>
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/heart3"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:scaleType="fitStart"
+                android:src="@drawable/love"/>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:layout_gravity="center">
+
+            <!-- Column 0 -->
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/prince_0_0"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:scaleType="fitCenter"
+                    />
+
+                <!-- Repeat for each row -->
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/prince_1_0"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:scaleType="fitCenter"
+                    />
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/prince_2_0"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:scaleType="fitCenter"
+                    />
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/prince_3_0"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:scaleType="fitCenter"
+                    />
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/prince_4_0"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:scaleType="fitCenter"
+                    />
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/prince_5_0"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:scaleType="fitCenter"
+                    />
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/prince_6_0"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:scaleType="fitCenter"
+                    />
+
+
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/princess_7_0"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/princess"
+                    android:visibility="invisible"
+                    />
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+            <!-- Column 1 -->
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/prince_0_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:scaleType="fitCenter"
+                    />
+
+                <!-- Repeat for each row -->
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/prince_1_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:scaleType="fitCenter"
+                    />
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/prince_2_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:scaleType="fitCenter"
+                    />
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/prince_3_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:scaleType="fitCenter"
+                    />
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/prince_4_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:scaleType="fitCenter"
+                    />
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/prince_5_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:scaleType="fitCenter"
+                    />
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/prince_6_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:scaleType="fitCenter"
+                    />
+
+
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/princess_7_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/princess"
+                    android:visibility="invisible"
+                    />
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+            <!-- Column 2 -->
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/prince_0_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:scaleType="fitCenter"
+                    />
+
+                <!-- Repeat for each row -->
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/prince_1_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:scaleType="fitCenter"
+                    />
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/prince_2_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:scaleType="fitCenter"
+                    />
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/prince_3_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:scaleType="fitCenter"
+                    />
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/prince_4_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:scaleType="fitCenter"
+                    />
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/prince_5_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:scaleType="fitCenter"
+                    />
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/prince_6_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:scaleType="fitCenter"
+                    />
+
+
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/princess_7_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/princess"
+                    android:visibility="invisible"/>
+            </androidx.appcompat.widget.LinearLayoutCompat>
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <LinearLayout
+            android:id="@+id/controls_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="16dp"
+            android:paddingBottom="8dp"
+            android:gravity="center_horizontal">
+
+            <!-- Left Arrow Button -->
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/left_arrow"
+                style="@style/Widget.Material3.Button.Icon"
+                android:layout_width="70dp"
+                android:layout_height="65dp"
+                android:backgroundTint="#BC03A0F4"
+                app:icon="@drawable/left_arrow"
+                app:iconGravity="textEnd"
+                app:iconSize="52dp"
+                android:layout_marginEnd="32dp"
+                android:layout_marginBottom="16dp"/>
+
+            <!-- Right Arrow Button -->
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/right_arrow"
+                style="@style/Widget.Material3.Button.Icon"
+                android:layout_width="70dp"
+                android:layout_height="65dp"
+                android:backgroundTint="#BC03A0F4"
+                app:icon="@drawable/right_arrow"
+                app:iconGravity="textEnd"
+                app:iconSize="52dp"
+                android:layout_marginStart="140dp"
+                android:layout_marginBottom="16dp"/>
+        </LinearLayout>
+
+
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</RelativeLayout>
